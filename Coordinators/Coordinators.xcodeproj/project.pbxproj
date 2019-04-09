@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDE1ADDF225BABE700F0D0E4 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1ADDE225BABE700F0D0E4 /* BuyCoordinator.swift */; };
 		ECAD830222577F32001626C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD830122577F32001626C8 /* AppDelegate.swift */; };
 		ECAD830422577F32001626C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD830322577F32001626C8 /* ViewController.swift */; };
 		ECAD830722577F32001626C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAD830522577F32001626C8 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CDE1ADDE225BABE700F0D0E4 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		ECAD82FE22577F31001626C8 /* Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAD830122577F32001626C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECAD830322577F32001626C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		ECAD82F522577F31001626C8 = {
 			isa = PBXGroup;
 			children = (
+				CDE1ADDE225BABE700F0D0E4 /* BuyCoordinator.swift */,
 				ECAD830022577F31001626C8 /* Coordinators */,
 				ECAD82FF22577F31001626C8 /* Products */,
 			);
@@ -153,6 +156,7 @@
 				ECAD831C22578380001626C8 /* CreateAccountViewController.swift in Sources */,
 				ECAD830422577F32001626C8 /* ViewController.swift in Sources */,
 				ECAD830222577F32001626C8 /* AppDelegate.swift in Sources */,
+				CDE1ADDF225BABE700F0D0E4 /* BuyCoordinator.swift in Sources */,
 				ECAD831422577F6F001626C8 /* Coordinator.swift in Sources */,
 				ECAD83182257814D001626C8 /* MainCoordinator.swift in Sources */,
 				ECAD83162257801A001626C8 /* Storyboarded.swift in Sources */,
