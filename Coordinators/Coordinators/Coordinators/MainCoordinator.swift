@@ -23,13 +23,15 @@ class MainCoordinator: NSObject,Coordinator, UINavigationControllerDelegate {
         child.parentCoordinator = self
         child.start()
     }
-
-    func createAccount() {
-        let vc = CreateAccountViewController.instantiate()
-        vc.coordinator = self
-        navigationController.pushViewController(vc, animated: true)
-    }
     
+    func createAccount() {
+        let child = CreateAccountCoordinator(navigationController: navigationController)
+        childCoordinators.append(child)
+        child.parentCoordinator = self
+        child.start()
+    }
+
+
     func childDidFinish(_ child: Coordinator?) {
         for (index, coordinator) in childCoordinators.enumerated() {
             if coordinator === child {
@@ -57,6 +59,10 @@ class MainCoordinator: NSObject,Coordinator, UINavigationControllerDelegate {
         if let buyViewController = fromViewController as? BuyViewController {
             // We're popping a buy view controller; end its coordinator
             childDidFinish(buyViewController.coordinator)
+        }
+        
+        if let createAccountViewController = fromViewController as? CreateAccountViewController {
+            childDidFinish(createAccountViewController.coordinator)
         }
     }
 
