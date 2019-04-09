@@ -1,6 +1,6 @@
 import UIKit
 
-class MainCoordinator: Coordinator {
+class MainCoordinator: NSObject,Coordinator, UINavigationControllerDelegate {
 
     var childCoordinators = [Coordinator]()
 
@@ -13,6 +13,7 @@ class MainCoordinator: Coordinator {
     func start() {
         let vc = ViewController.instantiate()
         vc.coordinator = self
+        navigationController.delegate = self
         navigationController.pushViewController(vc, animated: true)
     }
 
