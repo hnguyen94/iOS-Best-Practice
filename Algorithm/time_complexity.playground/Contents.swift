@@ -9,7 +9,7 @@ for _ in 1...100 {
 
 // Linear Time O(n)
 var b = 0
-for n in 1...100 {
+for n in 1...1000 {
   b = n
 }
 
