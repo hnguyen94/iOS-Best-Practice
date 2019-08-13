@@ -3,13 +3,18 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/hoang.nguyen/Projects/practice/iOS-Best-Practice/Algorithm/group_function.playground#CharacterRangeLen=50&amp;CharacterRangeLoc=1208&amp;EndingColumnNumber=0&amp;EndingLineNumber=34&amp;StartingColumnNumber=0&amp;StartingLineNumber=33&amp;Timestamp=585059774.462888"
+         documentLocation = "file:///Users/hoang.nguyen/Projects/practice/iOS-Best-Practice/Algorithm/group_function.playground#CharacterRangeLen=50&amp;CharacterRangeLoc=1208&amp;EndingColumnNumber=0&amp;EndingLineNumber=34&amp;StartingColumnNumber=0&amp;StartingLineNumber=33&amp;Timestamp=585064694.710693"
          lockedSize = "{177, 129}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/hoang.nguyen/Projects/practice/iOS-Best-Practice/Algorithm/group_function.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1208&amp;EndingColumnNumber=0&amp;EndingLineNumber=33&amp;StartingColumnNumber=0&amp;StartingLineNumber=33&amp;Timestamp=585059774.46415"
+         documentLocation = "file:///Users/hoang.nguyen/Projects/practice/iOS-Best-Practice/Algorithm/group_function.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1208&amp;EndingColumnNumber=0&amp;EndingLineNumber=33&amp;StartingColumnNumber=0&amp;StartingLineNumber=33&amp;Timestamp=585064694.710797"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/hoang.nguyen/Projects/practice/iOS-Best-Practice/Algorithm/group_function.playground#CharacterRangeLen=21&amp;CharacterRangeLoc=1466&amp;EndingColumnNumber=0&amp;EndingLineNumber=45&amp;StartingColumnNumber=1&amp;StartingLineNumber=44&amp;Timestamp=585064694.710873"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

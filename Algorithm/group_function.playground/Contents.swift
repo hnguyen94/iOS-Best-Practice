@@ -36,8 +36,13 @@ let groupedList = sortedKeys.map { (key) in
     return groupedByFirstName[key]!
 }
 
-groupedList.forEach({
-    $0.forEach({print($0)})
-    print("-----------------------------------------------")
-})
+//groupedList.forEach({
+//    $0.forEach({print($0)})
+//    print("-----------------------------------------------")
+//})
+
+
+print(groupedList[0])
+
+
 
