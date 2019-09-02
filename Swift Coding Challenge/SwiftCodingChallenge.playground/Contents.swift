@@ -113,3 +113,15 @@ func challenge6c(input: String) -> String {
 
 assert(challenge6c(input: "wombat") == "wombat", "Challenge 4 failed")
 assert(challenge6c(input: "hello") == "helo", "Challenge 6 failed")
+
+// MARK: - Challenge 7
+// Condense whitespace
+
+func challenge7b(input: String) -> String {
+    return input.replacingOccurrences(of: " +",
+                                      with: " ",
+                                      options: .regularExpression,
+                                      range: nil)
+}
+
+a
